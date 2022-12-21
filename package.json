@@ -1,0 +1,22 @@
+{
+  "name": "eslint_setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "say": "echo Hello world",
+    "format": "npx prettier --write --cache .",
+    "lint": "npx eslint --cache .",
+    "postinstall": "npx husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1"
+  }
+}
